@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all"> 
+  <link href="styles.css" rel ="stylesheet" type="text/css" media="all">
   <link href="gallery.html">
   <!-- <link href="js/bootstrap.js" rel ="stylesheet" type="text/css" media="all">  -->
 
   <title>TastyCaters</title>
+  <!-- Create a navbar with Home,About Us, Gallery, Services and Contac Us -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,9 +54,11 @@
   
 </head>
 <body>
+  <!-- Create a bootstrap grid that holds the images of the gallery in 8 columns per row -->
     <div class="Gallery-Container">
       <div class="gallery-row">
-        <div class="col-xs-8">
+        <div class="col-xs-12">
+          <div class=gallery-images>
           <ul>
             <li<><img src="images/burgers.jpeg" alt="Image of a burger"></li>
             <li<><img src="images/chips.jpeg" alt="Image of french fries."></li>
@@ -65,6 +69,7 @@
             <li<><img src="images/tastybar.jpeg" alt="Image for drinks"></li>
             <li<><img src="images/pourdrink.jpeg" alt="Image of drinks."></li>
           </ul>
+          </div>
         </div>
 
       </div>

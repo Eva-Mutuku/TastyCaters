@@ -1,0 +1,10 @@
+/* Make the image sizes in gallery list to be of equal sizes */
+.gallery-images li img {
+  position: relative;
+  float: left;
+  width:  100px;
+  height: 100px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+}
