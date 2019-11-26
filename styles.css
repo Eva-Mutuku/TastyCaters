@@ -1,20 +1,31 @@
-/* Make the image sizes in gallery list to be of equal sizes */
-li {
-  list-style-type: none;
-}
-.gallery-images li img {
-  position: relative;
-  float: left;
-  width:  80%;
-  height: 80%;
-  background-position: 50% 50%;
-  background-repeat:   no-repeat;
-  background-size:     cover;
-  padding-top: 5px;
-
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/seafood-salad-appetizer.jpg");
 }
 
-/* img {
-  height:40%;
-  width: 40%;
+/* .Homepage-bground-image-img{
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
 } */
+*{
+  padding: 5px;
+}
+img {
+  height:250px;
+  width: 250px;
+  padding: 3px;
+}
+.Container{
+  width: 400px;
+}
+.card{
+  width: 30%;
+  height: 55%;
+  margin-left: 60%;
+  margin-top: 5%;
+}
